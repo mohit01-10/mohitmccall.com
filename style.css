@@ -203,7 +203,7 @@ section {
 }
 
 .section__text p {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .section__text__p1 {
@@ -211,7 +211,7 @@ section {
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
   text-align: left;
 }
@@ -220,6 +220,7 @@ section {
   font-size: 0.938rem;
   margin-bottom: 3rem;
   text-align: left;
+  color: hsl(0, 0%,46%);
 }
 
 .title0 {
@@ -229,7 +230,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.25rem;
   text-align: center;
   color:hsl( 0 , 0% ,20%);
 }
@@ -366,6 +367,7 @@ border-radius: 50%;
 
 #experience {
   position: relative;
+  margin-top: 3rem;
 }
 
 .experience-sub-title {
