@@ -51,7 +51,7 @@
       <div class="section__text">
         <!-- <p class="section__text__p1">Namaste, I'm</p> -->
         <h1 class="title0">Namaste and </h1>
-        <h1 class="title0">Hi, I'm Mohit!🖐️</h1>
+        <h1 class="title0">Hi, I'm <span id="typing-text">Mohit!🖐️</span></h1>
         <p class="section__text__p2">Software Enginner</p>
         <p class="section__text__p3">Currently pursuing a Computer Science degree with proficiency in AI/ML at the Jaypee University of Information Technology-Solan.</p>
         <div class="btn-container">
@@ -505,5 +505,10 @@
     </footer>
   
     <script src="script.js"></script>
+   
   </body>
+  <script>window.onload = function() {
+    var typingText = document.getElementById('typing-text');
+    typingText.classList.add('typing-animation');
+  };</script>
 </html>
