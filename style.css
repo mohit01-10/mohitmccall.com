@@ -34,7 +34,7 @@ a,
 }
 
 .header{
-  background-color: hsl( 0 , 0% , 98%);
+  background-color: #18181b;
   left: 0;
   position: fixed;
   top: 0;
@@ -56,6 +56,7 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1rem;
+  
 }
 
 a {
@@ -73,7 +74,7 @@ a:hover {
 
 .logo, .nav-links {
   font-size: 1rem;
-  color: hsl( 0 , 0% ,20%);
+  color: whitesmoke;
 
 }
 
@@ -85,11 +86,14 @@ a:hover {
   overflow: hidden;
   z-index: 100;
 }
-
+.hl{
+  color: whitesmoke;
+}
 /* HAMBURGER MENU */
 
 #hamburger-nav {
   display: none;
+  background-color: #18181b;
 }
 
 .hamburger-menu {
@@ -109,7 +113,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: whitesmoke;
   transition: all 0.3 ease-in-out;
 }
 
@@ -214,19 +218,20 @@ section {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   text-align: left;
+  color: whitesmoke;
 }
 
 .section__text__p3 {
   font-size: 0.938rem;
   margin-bottom: 3rem;
   text-align: left;
-  color: hsl(0, 0%,46%);
+  color: whitesmoke;
 }
 
 .title0 {
   font-size: 3.5rem;
   text-align: left;
-  color:hsl( 0 , 0% ,20%);
+  color: whitesmoke;
 }
 
 .typing-animation {
@@ -235,7 +240,7 @@ section {
   overflow: hidden;
   display: inline-flex;
   position: relative;
-  border-right: .15em solid hsl( 0 , 0% ,20%);
+  border-right: .15em solid whitesmoke;
   animation: typing 2s steps(20, end) forwards, blink .8s infinite;
 }
 
@@ -250,7 +255,7 @@ section {
 
 @keyframes blink {
   from { border-color: transparent }
-  to { border-color:  hsl( 0 , 0% ,20%);}
+  to { border-color:  wheat;}
 }
 
 .title {
@@ -266,6 +271,19 @@ section {
   flex-direction: column;
   margin-top: 1rem;
   justify-content: center;
+}
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nsocials{
+  gap: 1rem;
+  display: none;
+  flex-direction: row; 
+  margin-top: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .profilepic{
@@ -298,7 +316,7 @@ border-radius: 50%;
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: black 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -308,16 +326,19 @@ border-radius: 50%;
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #18181b;
   color: white;
 }
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
+  border: whitesmoke 0.1rem solid;
+
 }
 
 .btn-color-2 {
   background: none;
+  color: whitesmoke;
 }
 
 .btn-color-2:hover {
