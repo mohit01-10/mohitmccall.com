@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
   
@@ -17,11 +17,12 @@
           <div class="logo">Mohit Pal</div>
           <div class ="nb">
             <ul class="nav-links">
-              <li><a href="#profile"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-              <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i> About</a></li>
-              <li><a href="#experience"><i class="fa fa-code" aria-hidden="true"></i> Skills</a></li>
-              <li><a href="#projects"><i class="fa fa-magic" aria-hidden="true"></i> Projects</a></li>
-              <li><a href="#contact"><i class="fa fa-connectdevelop" aria-hidden="true"></i> Contact</a></li>
+              <li><a href="#profile" class="hl"><i class="fa-solid fa-house"></i></i> Home</a></li>
+              <li><a href="#about" class="hl"><i class="fa-solid fa-user"></i> About</a></li>
+              <li><a href="#experience" class="hl"><i class="fa-solid fa-code"></i> Skills</a></li>
+              <li><a href="#projects" class="hl"><i class="fa-solid fa-wand-magic-sparkles"></i> Projects</a></li>
+              <li><a href="#research" class="hl"><i class="fa-brands fa-react"></i> Research</a></li>
+              <li><a href="#contact" class="hl"><i class="fa-brands fa-connectdevelop"></i> Contact</a></li>
             </ul>
           </div>
         
@@ -45,13 +46,13 @@
       </div>
     </nav>
 
-
+<div class = "fs" style="width: 100%; background-color: #2A4365; color: whitesmoke;">
     <section id="profile">
       <div class="section__pic-container">
-        <img class = "profilepic" src="./assets/pp.jpeg" alt="John Doe profile picture" />
+        <img class = "profilepic" src="./assets/pp.jpeg" alt="profile picture" />
       </div>
       <div class="section__text">
-        <!-- <p class="section__text__p1">Namaste, I'm</p> -->
+        
         <h1 class="title0">Namaste and </h1>
         <h1 class="title0">Hi, I'm <span id="typing-text">Mohit!🖐️</span></h1>
         <p class="section__text__p2">Software Enginner</p>
@@ -62,7 +63,7 @@
           </button>
           <button
           class="btn btn-color-1"
-          onclick="window.open('./assets/MohitsResume (5).pdf')"
+          onclick="window.location.href='https://drive.google.com/file/d/1M6YxiJf7j6_ACnTAUMoX8UEKAUXAiWSd/view?usp=sharing'"
         >
           Resume<i class="gg--file-document"></i>
         </button>
@@ -70,6 +71,11 @@
       
       </div>
       <div class="socials">
+        <i class="fab fa-linkedin icon" onclick="location.href='https://www.linkedin.com/in/in-mohit/'" title="My LinkedIn profile"></i>
+        <i class="fab fa-github icon" onclick="location.href='https://github.com/mohit01-10'" title="My Github profile"></i>
+        <i class="fab fa-instagram icon" onclick="location.href='https://www.instagram.com/mohit1.001/'" title="My Instagram profile"></i>
+      </div>
+      <div class="nsocials">
         <img
           src="./assets/linkedin.png"
           alt="My LinkedIn profile"
@@ -90,6 +96,7 @@
       />
       </div>
     </section>
+</div>
     <section id="about">
       <h1 class="title">About Me</h1>
       <p class="section__text__p1">Get To Know More</p>
@@ -356,6 +363,13 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">CosmoVibes</h2>
+
+            <ul style="margin-left: 125px;">
+              <li style="text-align: left;">Pygame module</li>
+              <li style="text-align: left;">Interactive interface</li>
+              <li style="text-align: left; margin-bottom: 10px;">Smooth relaxing bg music</li>
+           </ul>
+          
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -381,6 +395,11 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">AlzAware</h2>
+            <ul style="margin-left: 125px;">
+              <li style="text-align: left;">Stacking Ensemble Framework</li>
+              <li style="text-align: left;">Multi-class Classification</li>
+              <li style="text-align: left; margin-bottom: 10px;">High Recall and Scalability</li>
+           </ul>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -406,6 +425,11 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">PySqueeze</h2>
+            <ul style="margin-left: 125px;">
+              <li style="text-align: left;">Huffman and LZW Algos</li>
+              <li style="text-align: left;">Multiple file format support</li>
+              <li style="text-align: left; margin-bottom: 10px;">Offline Compression</li>
+           </ul>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -431,6 +455,11 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">ALab</h2>
+            <ul style="margin-left: 125px;">
+              <li style="text-align: left;">AI-based Question Generator</li>
+              <li style="text-align: left;">Schedule Exams</li>
+              <li style="text-align: left; margin-bottom: 10px;">Classrooms Support</li>
+           </ul>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -456,6 +485,25 @@
         onclick="location.href='./#contact'"
       />
     </section>
+
+    <section id="research">
+      <h1 class="title">Research</h1>
+      <p class="section__text__p1">My current research and what I've done</p>
+
+      <div class="details-container" style="text-align: left;">
+        <p>
+          <i class="fa-brands fa-react fa-xl" style="color: #050505;"></i> Authored a research paper on <i>“Renewable energy source selection using T-spherical fuzzy soft Dombi aggregation operators”</i>, with the paper accepted in ICET 2023 for publication by Scrivener Publishing.</p>
+        <p><br>
+          <i class="fa-brands fa-react fa-xl" style="color: #050505;"></i> Co-Authored a book chapter titled <i>“Predicting Alzheimer’s Disease: A Case Study Using Federated Learning
+          Framework”</i>, with the chapter accepted in FLAIOE for publishing by Springer .</p>
+          <br>
+        <p>
+          <i class="fa-brands fa-react fa-xl" style="color: #050505;"></i> Co-Authored a research paper titled <i>“A Multi-class Ensemble Framework for Alzheimer Disease Classification
+      ”</i>, with the under review by editor of the journal Computers in Biology and Medicine. 
+        </p>
+      </div>
+    </section>
+    
     <section id="contact">
       <h1 class="title">Get in Touch</h1>
       <p class="section__text__p1">Leave a message? Contact Me Via</p>
